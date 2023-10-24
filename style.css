@@ -1,0 +1,64 @@
+*{
+    margin: 20px 0px 20px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kapsayici{
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 2%;
+
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 20%;
+    font-size: 30px;
+}
+
+div header ul a:hover i{
+    color: hotpink;
+    transform: scale(1.8);
+}
+div header ul a i{
+    transition: 1s all;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+
+.resim{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(./120-1-izmirin-en-guzel-ilce-ve-semtleri-.jpg);
+    background-size: 100% 100%;
+    border-radius: 4%;
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 10px 0px 10px;
+    font-style: oblique;
+}
+
+
